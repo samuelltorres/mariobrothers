@@ -17,8 +17,8 @@
 
 .form-mask {
 	visibility: hidden;
-	height: 100vh;
-	width: 100vw;
+	width: 100%;
+	height: 100%;
 	background: linear-gradient(
 		109deg,
 		rgba(10, 12, 16, 1) 15%,
@@ -27,4 +27,41 @@
 	);
 	position: fixed;
 	top: 0;
+}
+
+.pointer {
+	cursor: pointer;
+}
+
+@media (max-width: 1024px) {
+	p {
+		display: none;
+	}
+}
+
+@media (max-width: 680px) {
+	.main {
+		flex-direction: column;
+		justify-content: center;
+	}
+	h3 {
+		display: none;
+	}
+	.mariolu {
+		width: 80vw;
+		height: auto;
+	}
+	.header {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		margin: 10px;
+		text-align: center;
+	}
+	.header img {
+		display: none;
+	}
+	.header img {
+		font-size: 1.25rem;
+	}
 }
