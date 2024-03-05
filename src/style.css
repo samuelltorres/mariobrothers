@@ -1,0 +1,30 @@
+.h-125 {
+	height: 500px;
+}
+
+.mascara {
+	height: 100vh;
+	width: 100vw;
+	background: linear-gradient(
+		109deg,
+		rgba(10, 12, 16, 1) 15%,
+		rgba(10, 12, 16, 0.9) 50%,
+		rgba(10, 12, 16, 1) 85%
+	);
+	position: fixed;
+	top: 0;
+}
+
+.form-mask {
+	visibility: hidden;
+	height: 100vh;
+	width: 100vw;
+	background: linear-gradient(
+		109deg,
+		rgba(10, 12, 16, 1) 15%,
+		rgba(10, 12, 16, 0.95) 50%,
+		rgba(10, 12, 16, 1) 85%
+	);
+	position: fixed;
+	top: 0;
+}
